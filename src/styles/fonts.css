@@ -1,179 +1,179 @@
 @font-face {
-    font-family: 'tagesschrift';
-    src: url(../../public/fonts/Tagesschrift-Regular.ttf);
-    font-weight: 400;
+	font-family: 'tagesschrift';
+	src: url(../../public/fonts/Tagesschrift-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'comicrelief';
-    src: url(../../public/fonts/ComicRelief-Regular.ttf);
-    font-weight: 400;
+	font-family: 'comicrelief';
+	src: url(../../public/fonts/ComicRelief-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'comicrelief';
-    src: url(../../public//fonts/ComicRelief-Bold.ttf);
-    font-weight: 700;
+	font-family: 'comicrelief';
+	src: url(../../public//fonts/ComicRelief-Bold.ttf);
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'corinthia';
-    src: url(../../public/fonts/Corinthia-Regular.ttf);
-    font-weight: 400;
+	font-family: 'corinthia';
+	src: url(../../public/fonts/Corinthia-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'corinthia';
-    src: url(../../public/fonts/Corinthia-Bold.ttf);
-    font-weight: 700;
+	font-family: 'corinthia';
+	src: url(../../public/fonts/Corinthia-Bold.ttf);
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-ExtraLight.ttf);
-    font-weight: 200;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-ExtraLight.ttf);
+	font-weight: 200;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-Light.ttf);
-    font-weight: 300;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-Light.ttf);
+	font-weight: 300;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-Regular.ttf);
-    font-weight: 400;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-Medium.ttf);
-    font-weight: 500;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-Medium.ttf);
+	font-weight: 500;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-Bold.ttf);
-    font-weight: 700;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-Bold.ttf);
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-ExtraBold.ttf);
-    font-weight: 800;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-ExtraBold.ttf);
+	font-weight: 800;
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url(../../public/fonts/Montserrat-Black.ttf);
-    font-weight: 900;
+	font-family: 'montserrat';
+	src: url(../../public/fonts/Montserrat-Black.ttf);
+	font-weight: 900;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-ExtraLight.ttf);
-    font-weight: 200;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-ExtraLight.ttf);
+	font-weight: 200;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-Light.ttf);
-    font-weight: 300;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-Light.ttf);
+	font-weight: 300;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-Regular.ttf);
-    font-weight: 400;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-Medium.ttf);
-    font-weight: 500;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-Medium.ttf);
+	font-weight: 500;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-Bold.ttf);
-    font-weight: 700;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-Bold.ttf);
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-ExtraBold.ttf);
-    font-weight: 800;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-ExtraBold.ttf);
+	font-weight: 800;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(../../public/fonts/Roboto-Black.ttf);
-    font-weight: 900;
+	font-family: 'roboto';
+	src: url(../../public/fonts/Roboto-Black.ttf);
+	font-weight: 900;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMono-ExtraLight.otf);
-    font-weight: 100;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMono-ExtraLight.otf);
+	font-weight: 100;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMono-Light.otf);
-    font-weight: 200;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMono-Light.otf);
+	font-weight: 200;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMonoPL-Light.otf);
-    font-weight: 300;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMonoPL-Light.otf);
+	font-weight: 300;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMonoPL-Regular.otf);
-    font-weight: 400;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMonoPL-Regular.otf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMonoPL-SemiBold.otf);
-    font-weight: 700;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMonoPL-SemiBold.otf);
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'cascadia mono';
-    src: url(../../public/fonts/CascadiaMono-Bold.otf);
-    font-weight: 900;
+	font-family: 'cascadia mono';
+	src: url(../../public/fonts/CascadiaMono-Bold.otf);
+	font-weight: 900;
 }
 
 @font-face {
-    font-family: 'fredoka';
-    src: url(../../public/fonts/Fredoka-Light.ttf);
-    font-weight: 200;
+	font-family: 'fredoka';
+	src: url(../../public/fonts/Fredoka-Light.ttf);
+	font-weight: 200;
 }
 
 @font-face {
-    font-family: 'fredoka';
-    src: url(../../public/fonts/Fredoka-Regular.ttf);
-    font-weight: 400;
+	font-family: 'fredoka';
+	src: url(../../public/fonts/Fredoka-Regular.ttf);
+	font-weight: 400;
 }
 
 @font-face {
-    font-family: 'fredoka';
-    src: url(../../public/fonts/Fredoka-Medium.ttf);
-    font-weight: 600;
+	font-family: 'fredoka';
+	src: url(../../public/fonts/Fredoka-Medium.ttf);
+	font-weight: 600;
 }
 
 @font-face {
-    font-family: 'fredoka';
-    src: url(../../public/fonts/Fredoka-SemiBold.ttf);
-    font-weight: 800;
+	font-family: 'fredoka';
+	src: url(../../public/fonts/Fredoka-SemiBold.ttf);
+	font-weight: 800;
 }
 
 @font-face {
-    font-family: 'fredoka';
-    src: url(../../public/fonts/Fredoka-Bold.ttf);
-    font-weight: 900;
+	font-family: 'fredoka';
+	src: url(../../public/fonts/Fredoka-Bold.ttf);
+	font-weight: 900;
 }

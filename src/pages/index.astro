@@ -1,8 +1,82 @@
 ---
 import Layout from "../layouts/Layout.astro"
-import HomeComponent from "../components/home_component.astro"
+import Navbar from "../components/navbar.astro"
 ---
 
 <Layout>
-	<HomeComponent></HomeComponent>
+	<Navbar></Navbar>
 </Layout>
+
+<!-- Home Styles -->
+
+<style>
+	.container {
+		max-width: 900px;
+		margin: 0 auto;
+		margin-top: 25px;
+		padding: 40px 20px;
+		text-align: center;
+		background: #fff1;
+		border-radius: 16px;
+		box-shadow: 0 8px 32px #000b;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+		box-sizing: border-box;
+	}
+
+	.container:hover {
+		background: #fff2;
+		backdrop-filter: blur(0)
+	}
+
+	.title{
+		font-size: 64px;
+		font-weight: 700;
+		text-shadow: 2px 2px 8px #000e;
+		margin-bottom: 20px;
+		transition: color 0.3s ease;
+		color: inherit;
+		font-family: inherit;
+	}
+
+	.introduction{
+		font-size: 44px;
+		color: inherit;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 10px 0;
+		text-shadow: 1px 1px 6px #000c;
+		font-family: inherit;
+	}
+
+	.introduction-content{
+		font-size: 34px;
+		color: inherit;
+		margin: 10px 0 30px 0;
+		text-shadow: 1px 1px 6px #000c;
+		font-family: inherit;
+	}
+
+	.introduction-content-description{
+		font-size: 22px;
+		color: inherit;
+		margin: 10px 0;
+		text-shadow: 1px 1px 5px #000b;
+		font-family: inherit;
+	}
+
+
+</style>
+
+
+<main role="main">
+    <div class="container" role="textbox" aria-label="Introducing content">
+        <h1 class="title" role="heading">Up To Infinity Incremental</h1>
+        <p class="introduction" role="complementary">introduction</p>
+        <p class="introduction-content" role="contentinfo">How this game works?</p>
+        <p role="definition" class="introduction-content-description">This game works by getting infinities, which you can later use for better upgrades to get better at the game</p>
+    </div>
+</main>
+
+

@@ -1,0 +1,77 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Navbar from "../../components/navbar.astro";
+---
+
+<Layout>
+    <Navbar></Navbar>
+</Layout>
+
+<!-- Contact Styles -->
+
+<style>
+	.social-media{
+		border: 1px solid #0009;
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 40px 20px;
+		margin-top: 15vh;
+		box-sizing: border-box;
+		background-color: #fff1;
+		border-radius: 16px;
+		text-align: center;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		transition: background 0.3s ease, backdrop-filter 0.3s ease;
+		box-shadow: 0 8px 32px #000b;
+	}
+
+	.social-media:hover{
+		background: #fff2;
+		backdrop-filter: blur(0);
+	}
+
+	.social-media-links{
+		display: flex;
+		font-size: 20px;
+		list-style: none;
+		justify-content: center;
+		
+	}
+
+	.social-media-link{
+		margin: 20px;
+		padding: 5px;
+	}
+
+	.social-media-site{
+		text-decoration: none;
+		color: #f39;
+		font-size: 1.25em;
+		transition: color 0.3s ease;
+	}
+
+	.social-media-site:hover{
+		color: #48e;
+	}
+
+	.title{
+		text-align: center;
+		
+	}
+</style>
+
+
+<main role="main">
+    <div class="content" role="contentinfo">
+        <div class="social-media">
+            <h1 class="title" role="heading">Contact Us</h1>
+            <ul class="social-media-links" role="list">
+                <li class="social-media-link"><a class="social-media-site" target="_blank" href="https://discord.gg/6pzc7Dny" role="link">Discord</a></li>
+                <li class="social-media-link"><a class="social-media-site" target="_blank" href="" role="link">X</a></li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+
