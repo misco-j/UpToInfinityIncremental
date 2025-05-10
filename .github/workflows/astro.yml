@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "." # Cambia esto si tu proyecto está en un subdirectorio
+  BUILD_PATH: "dev-uptoinfinityincremental"
 
 jobs:
   build:
@@ -40,7 +40,6 @@ jobs:
         with:
           node-version: "20"
           cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
 
       - name: Setup Pages
         id: pages
