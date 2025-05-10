@@ -5,9 +5,11 @@ body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    color: #fff;
+    color: #cdcdcd;
     background-color: #000; 
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 body::before {
@@ -31,6 +33,10 @@ body::after {
     height: 100vh;
     background: linear-gradient(180deg, #0005 0%, #000b 100%);
     z-index: -1;
+}
+
+main{
+    flex: 1;
 }
 
 .navbar {
@@ -67,12 +73,26 @@ body::after {
     transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-.nav-link:hover {
-    color: #1e90ff;
-}
-
-.link-active:hover{
+.nav-link-hover:hover{
     color: #8a5be2;
     border-bottom: 2px solid #8a5be2;
 }
 
+.footer-container {
+    background-color: #000b;
+    color: inherit;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: auto;
+}
+
+.footer-container p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-container span {
+    margin: 0 15px;
+    cursor: pointer;
+}
